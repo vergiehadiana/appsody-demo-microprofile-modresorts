@@ -1,0 +1,2 @@
+project-name: appmod-resorts-liberty
+stack: kabanero/java-microprofile:0.2
