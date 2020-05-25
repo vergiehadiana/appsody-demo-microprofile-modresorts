@@ -13,6 +13,7 @@ metadata:
     image.opencontainers.org/title: modresorts10
     stack.appsody.dev/version: 0.2.18
   name: modresorts10
+  namespace: modresorts
 spec:
   applicationImage: dev.local/modresorts10
   createKnativeService: false
@@ -38,3 +39,4 @@ spec:
     type: NodePort
   stack: java-microprofile
   version: 1.0.0
+  serviceAccountName: default
