@@ -10,12 +10,12 @@ metadata:
     stack.appsody.dev/revision: c9694470e082492c54dfd6574622d1e92332a498
     stack.appsody.dev/tag: java-microprofile:0.2.18
   labels:
-    image.opencontainers.org/title: modresorts10
+    image.opencontainers.org/title: demo-modresort-microprofile-swg-vergie
     stack.appsody.dev/version: 0.2.18
-  name: modresorts10
-  namespace: modresorts
+  name: demo-modresort-microprofile-swg-vergie
+  namespace: swg-vergie
 spec:
-  applicationImage: dev.local/modresorts10
+  applicationImage: dev.local/demo-modresort-microprofile-swg-vergie
   createKnativeService: false
   expose: true
   livenessProbe:
