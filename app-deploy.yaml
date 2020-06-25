@@ -13,7 +13,7 @@ metadata:
     image.opencontainers.org/title: demo-modresort-microprofile-swg-vergie
     stack.appsody.dev/version: 0.2.18
   name: demo-modresort-microprofile-swg-vergie
-  namespace: swg-vergie
+  namespace: kabanero
 spec:
   applicationImage: dev.local/demo-modresort-microprofile-swg-vergie
   createKnativeService: false
